@@ -4,6 +4,15 @@ Backend/target/
 !Backend/**/src/main/**/target/
 !Backend/**/src/test/**/target/
 
+### STS ###
+.Backend/apt_generated
+.Backend/classpath
+.Backend/factorypath
+.Backend/project
+.Backend/settings
+.Backend/springBeans
+.Backend/sts4-cache
+
 ### IntelliJ IDEA ###
 .idea
 *.iws
@@ -16,13 +25,14 @@ Backend/target/
 /dist/
 /nbdist/
 /.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
+Backend/build/
+!Backend/**/src/main/**/build/
+!Backend/**/src/test/**/build/
 
-### security ###
+### VS Code ###
 .Backend/pom.xml
 .Frontend/package.json
 .Frontend/package-lock.json
 .Frontend/yarn.lock
 .Frontend/yarn-error.log
+gitignore.txt
